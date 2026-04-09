@@ -9,7 +9,7 @@ themeToggle.addEventListener('click', () => {
     themeToggle.textContent = body.dataset.theme === 'dark' ? '☀️' : '🌙';
     localStorage.setItem('theme', body.dataset.theme);
     
-    // 🎨 ANIMAÇÃO NOVA
+    
     themeToggle.style.transform = 'scale(0.95)';
     setTimeout(() => themeToggle.style.transform = 'scale(1)', 150);
 });
@@ -50,7 +50,7 @@ async function getNewQuote() {
         
     } catch (error) {
         console.error('❌ Erro API:', error);
-        // 🔧 TRATAMENTO DE ERRO
+        
         displayQuote(
             'O melhor código é aquele que nunca é executado.',
             'Andrés Abreu'

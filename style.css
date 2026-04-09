@@ -37,7 +37,7 @@ body {
     transition: all 0.3s ease;
 }
 
-/* ========== TEMA E HEADER (MANTER) ========== */
+
 .theme-toggle {
     position: fixed;
     top: 10px;
@@ -70,8 +70,6 @@ header {
     transition: all 0.3s ease;
 }
 
-/* ... TODO O TEU CSS ORIGINAL ATÉ AQUI ... */
-/* (navbar, nav-menu, hamburger, etc - MANTER TUDO IGUAL) */
 
 .navbar {
     display: flex;
@@ -321,11 +319,6 @@ footer p {
     color: var(--text-secondary);
 }
 
-/* ============================================ */
-/* 🔥 NOVAS FUNCIONALIDADES (BÓNUS) */
-/* ============================================ */
-
-/* LOADING SPINNER */
 .loading-spinner {
     position: fixed;
     top: 50%;
@@ -350,7 +343,6 @@ footer p {
     font-size: 2.5rem;
 }
 
-/* QUOTE SECTION */
 .quote-section {
     margin-top: 3rem;
     text-align: center;
@@ -401,7 +393,7 @@ footer p {
     font-size: 1.1rem;
 }
 
-/* PROJECTS HEADER & SEARCH */
+
 .projects-header {
     display: flex;
     flex-direction: column;
@@ -445,7 +437,7 @@ footer p {
     border: 1px solid var(--border);
 }
 
-/* RESPONSIVO */
+
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
